@@ -14,7 +14,7 @@ line(mouseX,mouseY,pmouseX,pmouseY);
 void keyPressed(){
 background(#2F5218);
 
-if(mousePressed){
+if(mousePressed){ //only if mouse and any key is pressed on it works
   
   line(mouseX,mouseY,pmouseX,pmouseY);
   background(#136EEA);
